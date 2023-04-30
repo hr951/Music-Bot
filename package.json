@@ -1,6 +1,6 @@
 {
     "name": "music-disc",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Discord Music Bot",
     "main": "/src/index.js",
     "scripts": {
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hmes98318/Music-Disc.git"
+        "url": "git+https://github.com/hr951/Music-Bot.git"
     },
-    "author": "hmes98318",
+    "author": "hr951",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/hmes98318/Music-Disc/issues"
+        "url": "https://github.com/hr951/Music-Bot/issues"
     },
-    "homepage": "https://github.com/hmes98318/Music-Disc#readme",
+    "homepage": "https://github.com/hr951/Music-Bot#readme",
     "dependencies": {
         "@discord-player/equalizer": "^0.2.1",
         "@discord-player/extractor": "^4.1.2",
