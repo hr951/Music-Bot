@@ -6,7 +6,7 @@ const { usage } = require('../utils/functions/usage');
 module.exports = {
     name: 'status',
     aliases: ['usage'],
-    description: `${bot_name}のステータスを確認します`,
+    description: 'Botのステータスを確認します',
     usage: 'status',
     options: [],
 
