@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 dotenv.config();
 const ENV = process.env;
 
-const github = 'https://github.com/hi-ro951/Music-Bot';
+const github = 'https://github.com/hr951/Music-Bot';
 const bot_version = require('../../package.json').version;
 
 const bot_name = typeof (process.env.BOT_NAME) === 'undefined' ? 'Music Disc' : (ENV.BOT_NAME);
