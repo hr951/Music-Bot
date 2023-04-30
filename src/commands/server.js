@@ -5,7 +5,7 @@ module.exports = {
     name: 'server',
     aliases: [],
     showHelp: false,
-    description: `${bot_name}が導入されているサーバーの情報を表示します`,
+    description: 'Botが導入されているサーバーの情報を表示します',
     usage: 'server',
     options: [],
 
