@@ -14,9 +14,9 @@ const uptime = (startTime) => {
     console.log(day + ' / ' + hour + ':' + min + ':' + afterMin);
 
     if (day >= 1)
-        return day + ' Day(s) ' + hour + 'Hour(s)'/* + min + 'Minute(s)' + afterMin*/;
+        return day + ' 日 ' + hour + '時間'/* + min + '分' + afterMin*/;
     else
-        return /*day + ' Days' +*/ hour + 'Hour(s) ' + min + 'Minute(s)' /*+ afterMin + 'Second(s)'*/;
+        return /*day + ' 日' +*/ hour + '時間 ' + min + '分' /*+ afterMin + '秒'*/;
 };
 
 module.exports.uptime = uptime;
