@@ -98,8 +98,8 @@ module.exports = {
             .setTitle(`${bot_name} v${bot_version}`)
             .setURL(github)
             .addFields(
-                { name: `⚙️ SYSTEM`, value: `OS : **${os}**\nNode.js : **${node_v}**\nDiscord.js : **${djs_v}**\nCPU : **${cpu}**\n━━━━━━━━━━━━━━━━━━━━━━`, inline: false },
-                { name: `📊 USAGE`, value: `CPU : **${cpu_usage}**\nMEM : **${ram}**\nUptime : **${uptime}**\nPING : **${ping}ms**\n━━━━━━━━━━━━━━━━━━━━━━`, inline: false }
+                { name: `⚙️ システム`, value: `OS : **${os}**\nNode.js : **${node_v}**\nDiscord.js : **${djs_v}**\nCPU : **${cpu}**\n━━━━━━━━━━━━━━━━━━━━━━`, inline: false },
+                { name: `📊 使用スペック`, value: `CPU : **${cpu_usage}**\nメモリ : **${ram}**\n稼働時間 : **${uptime}**\nPING : **${ping}ms**\n━━━━━━━━━━━━━━━━━━━━━━`, inline: false }
             )
             .setTimestamp()
         return Embed_status;
