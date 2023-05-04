@@ -26,7 +26,7 @@ module.exports = {
         }
         else if (tracks.length > 9) {
             tracksQueue = tracks.slice(0, 10).join('\n');
-            tracksQueue += `\nand ${tracks.length - 10} other songs`;
+            tracksQueue += `\nと ${tracks.length - 10} の音楽`;
         }
         else {
             tracksQueue = tracks.join('\n');
@@ -53,7 +53,7 @@ module.exports = {
         }
         else if (tracks.length > 9) {
             tracksQueue = tracks.slice(0, 10).join('\n');
-            tracksQueue += `\nand ${tracks.length - 10} other songs`;
+            tracksQueue += `\nと ${tracks.length - 10} の音楽`;
         }
         else {
             tracksQueue = tracks.join('\n');
