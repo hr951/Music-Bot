@@ -10,9 +10,6 @@ module.exports = async (client, int) => {
 
     if (int.isButton()) {
 
-const role = int.guilds.roles.cache.find(roles => roles.name === 'CUSTOMER/お客さん')
-if (!int.member.roles.cache.has(role.id))
-
         if (!int.member.voice.channel)
             return int.reply({ content: `❌ | ボイスチャンネルに接続してください`, ephemeral: true, components: [] });
 
