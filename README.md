@@ -1,5 +1,5 @@
 # Discord.js Music Bot
-このプロジェクトは<a href="https://github.com/hmes98318">hmes98318様</a>の<a href="https://github.com/hmes98318/Music-Disc">Music-Disc</a>を和訳したものです。<br>
+このプロジェクトは<a href="https://github.com/hmes98318">hmes98318</a>様の<a href="https://github.com/hmes98318/Music-Disc">Music-Disc</a>を和訳したものです。<br>
 
 <h1>YouTube、Spotify、SoundCloud、AppleMusicが使用可能です。</h1>
 <br>
